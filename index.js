@@ -6,7 +6,7 @@ const server = http.createServer((req, res) => {
   // Esta línea está comentada. Deberías descomentarla para que funcione
   // y cambiar el texto que se envía como respuesta.
 
-  res.end('Poné lo que quieras acá');
+  res.end('Poné lo que quieras acá. Probando después de clase');
 });
 
 server.listen(3000, () => {
